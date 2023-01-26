@@ -19,5 +19,8 @@ class ResultViewController: UIViewController {
         resultLabel.text = bmiValue
     }
     
-
+    @IBAction func recalculateButtonPressed(_ sender: UIButton) {
+        self.dismiss(animated: true)
+    }
+    
 }
